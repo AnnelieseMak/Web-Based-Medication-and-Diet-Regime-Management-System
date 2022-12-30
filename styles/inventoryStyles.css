@@ -1,0 +1,88 @@
+#inventory-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#i-tabs {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#list-toggle {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: rgb(242,245,249);
+}
+
+.inven-tab:hover {
+    cursor: pointer;
+    background-color: rgba(134, 170, 189, 0.274);
+}
+
+.inven-tab {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.iActive {
+    background-color: white;
+}
+
+#i-date-box {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#inventory-list-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#inventory-list-row-header {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    background-color: #7ea288;
+    font-weight: 600;
+    height: 50px;
+    border: none;
+}
+
+.inventory-list-row {
+    padding: 7px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 60px;
+
+    border: 1px solid rgb(78, 78, 78);
+}
+
+.iAM {
+    font-size: 14px;
+    color: gray;
+}
+
+.inventory-list-row > div {
+    text-align: center;
+    flex: 1;
+}
+
+.c-Description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

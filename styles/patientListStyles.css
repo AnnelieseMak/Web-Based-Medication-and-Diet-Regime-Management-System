@@ -1,0 +1,218 @@
+/*********************************************
+                PATIENTS LIST PAGE
+*********************************************/
+#patientList-content-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#patientList-options-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+
+    /* border: 1px solid black; */
+}
+
+#patientList-toggle {
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#pl-tog-container {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: rgb(242,245,249);
+}
+
+.opt-tab {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+#patientList-toggle > * {
+    flex: 1;
+}
+
+.opt-tab:hover {
+    cursor: pointer;
+    background-color: rgba(134, 170, 189, 0.274);
+}
+
+/*********************************************
+            PATIENTS LIST FILTERS
+*********************************************/
+
+#filters-list {
+    display: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#filters-list-fields {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.view-filter {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.vf-input, .vf-select {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.f-title {
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.356);
+}
+
+#filter-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#filter-btns > button {
+    height: 40px;
+}
+
+#patientList-filter-container {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgba(163, 163, 163, 0.247);
+    background-color: rgba(197, 197, 197, 0.151);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#filter-heading:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#filter-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#pList-legend {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#pl-leg-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
+}
+
+#pl-leg-container > img {
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+}
+
+.status-img {
+    width: 25px;
+    height: auto;
+}
+
+/*********************************************
+                PATIENTS LIST
+*********************************************/
+#patientList-card-container {
+    flex: 1;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    min-width: 1000px;
+}
+
+.patientList-card {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+
+}
+.patientList-head {
+    font-weight: 600;
+    display: none;
+    background-color: #7ea288;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.sortable-row:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.view-active {
+    display: flex;
+}
+
+#patientList-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    font-size: 14px;
+}
+
+#patientList-card-template {
+    background-color: #7ea288;
+}
+
+.patientList-info {
+    min-width: 75px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patientList-info-id, .patientList-info-DOB, .patientList-info-gender {
+    max-width: 120px;
+}
+
+#patientList-action {
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+
+#patient-list-container > div:hover {
+    cursor: pointer;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+#patient-show-more {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
