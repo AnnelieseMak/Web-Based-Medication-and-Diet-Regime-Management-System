@@ -1,7 +1,13 @@
 # A Web-Based Medication and Diet Regime Management System
+
+---
+
 A web-based medication and diet regime management system that would be suitable for use by a qualified health practitioner in an aged-care facility.
 
 ### Features
+
+---
+
 - practioner authentication
 - filtered and ordered search of patient list
 - insert, view and edit patient data
@@ -10,4 +16,7 @@ A web-based medication and diet regime management system that would be suitable 
 - option to email facility director if medication is refused/not given
 
 ### Screenshots
+
+---
+
 ![Patient View](screenshots/patientView.JPG)
